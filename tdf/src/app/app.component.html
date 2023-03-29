@@ -1,0 +1,68 @@
+<div class="container">
+  <h1 class="text-center mt-3">Enrollment Form</h1>
+  <form #userForm="ngForm" class="mt-3">
+
+    <div class="mb-3 input-wrap">
+      <label for="exampleInputEmail1" class="form-label">Email address <span>*</span></label>
+      <input type="email" required #email="ngModel" pattern="^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$"
+      [class.is-invalid]="email.invalid && email.touched" class="form-control form-input" name="email" [(ngModel)]="userModel.email">
+      <small class="text-danger" [class.d-none]="email.valid || email.untouched">Email is required</small>
+    </div>
+    <div class="mb-3 ">
+      <label for="exampleInputPassword1" class="form-label">Password <span>*</span></label>
+
+      <input type="password" required #password="ngModel" pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,15}$"
+      [class.is-invalid]="password.invalid && password.touched" class="form-control form-input" id="exampleInputPassword1" name="password" [(ngModel)]="userModel.password">
+      <small class="text-danger" [class.d-none]="password.valid || password.untouched">Email is required</small>
+    </div>
+    <div class="mb-3 ">
+      <label for="exampleInputPhone" class="form-label">Phone <span>*</span></label>
+      <input type="tel" required #phone="ngModel" pattern="^[\+]?[(]?[0-9]{3}[)]?[-\s\.]?[0-9]{3}[-\s\.]?[0-9]{4,6}$"
+      [class.is-invalid]="phone.invalid && phone.touched" class="form-control form-input" id="exampleInputPassword1" name="phone" [(ngModel)]="userModel.phone"> 
+      <small class="text-danger" [class.d-none]="phone.valid || phone.untouched">Phone is required</small>
+    </div>
+    <div class="mb-3">
+      <select (blur)="validateTopic(topic.value)" (change)="validateTopic(topic.value)" class="form-select form-input" required #topic="ngModel"
+      [class.is-invalid]="topicHasError && topic.touched"   name="topic" [(ngModel)]="userModel.topic">
+        <option selected>I'm Interested In</option>
+        <option *ngFor="let data of topics">{{data}}</option>
+      </select>
+      <small class="text-danger" [class.d-none]="!topicHasError || topic.untouched">Topic is required</small>
+    </div>
+
+    <!-- <div class="mb-3 ">
+      <label>Time Prefrence</label>
+      <div class="form-check">
+        <input class="form-check-input" type="radio" value="morning">
+  <label class="form-check-label">Morning (9AM - 12PM)</label>
+      </div>
+      <div class="form-check">
+        <input class="form-check-input" type="radio" value="evening">
+  <label class="form-check-label">Evening (5PM - 8PM)</label>
+      </div>
+    </div> -->
+    <div class="mb-3">
+      <label>Time Prefrence <span>*</span></label>
+    <div class="form-check">
+      <input class="form-check-input"  type="radio" name="timePrefrence" [(ngModel)]="userModel.timePrefrence">
+      <label class="form-check-label">
+        Morning (9AM - 12PM)
+      </label>
+    </div>
+    <div class="form-check">
+      <input class="form-check-input"  type="radio" name="timePrefrence" [(ngModel)]="userModel.timePrefrence">
+      <label class="form-check-label">
+        Evening (5PM - 8PM)
+      </label>
+    </div>
+    </div>
+
+    <div class="form-check mb-3">
+      <input class="form-check-input" [(ngModel)]="userModel.subscribe" type="checkbox" value="" id="flexCheckDefault" name="subscribe">
+      <label class="form-check-label" for="flexCheckDefault">
+       Send me promotional offers
+      </label>
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </form>
+</div>
