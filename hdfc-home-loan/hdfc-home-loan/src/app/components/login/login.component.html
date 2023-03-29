@@ -1,0 +1,49 @@
+<div id="auth_form">
+ 
+    <div class="form-item-container">
+      <div class='form-main'>
+        <div class="form-head">
+          <div class="hdfc-logo-wrap">
+            <img class="hdfc-img" src="../assets/images/logo.png" alt="">
+          </div>
+          <h2>Sign in to your account!</h2>
+        </div>
+        <form  [formGroup]="loginForm"  class="login-form" >
+          <div class="mb-3">
+            <label  for="exampleInputEmail1" class="form-label"><span>* </span>Email address</label>
+            <input type="email" formControlName="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"  placeholder="Enter Email Address">
+            <small class="text-danger" *ngIf="user && user.errors && user.touched">Email is required</small>
+
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label"><span>* </span>Password</label>
+            <input type="password" formControlName="password"  class="form-control" id="exampleInputPassword1" placeholder="Enter Password">
+            <small class="text-danger" *ngIf="user && user.errors && user.touched">Password is required</small>
+        
+          </div>
+          <div class="forgot-pass">
+            <a routerLink="/forgot-pass">Forgot Password?</a>
+          </div>
+        
+          <button routerLink="/dashboard" type="submit" class="btn btn-primary login-btn mt-4">Login to Account</button>
+          <div class="signup">
+            <p class="text-center mt-4">Dont have an account?
+              <a routerLink="/sign-up"> Sign Up</a>
+              <br>
+              <a href="">Read our Privacy Policy</a>
+            </p>
+          </div>
+        </form>
+        
+      </div>
+      </div>
+      
+  </div>
+  
+  
+  
+  
+      
+  
+      
+         

@@ -1,0 +1,126 @@
+@use "styles/variable" as *;
+
+.myprofile {
+    width: calc(100% - 98px);
+    max-width: 1374px;
+    margin: 0 auto;
+    padding: 2rem;
+
+    h1 {
+        font-weight: $weight-medium;
+        font-size: 25px;
+        font-family: $font-family;
+        position: relative;
+        padding-left: 15px;
+        margin-bottom: 14px;
+
+        &::before {
+            position: absolute;
+            background-color: $buttonColor;
+            content: "";
+            width: 3px;
+            height: 100%;
+            top: 0;
+            left: 0;
+        }
+    }
+
+    .form-container {
+        margin: 0 auto;
+        background-image: url("../../assets/images/myprofile.svg");
+        background-repeat: no-repeat;
+        padding: 130px 50px;
+        background-size: contain;
+        background-color: #fff;
+        border-radius: 8px;
+
+        .profile-detail {
+            margin-left: 203px;
+            padding-bottom: 64px;
+        }
+
+        .profile-img {
+            .user-logo {
+                border-radius: 50%;
+                border: 1px solid #fff;
+                background-color: #eee;
+                max-width: 160px;
+            }
+        }
+
+        .camera-icon {
+            padding: 5rem 0 0 7rem;
+            position: absolute;
+
+            img {
+                background-color: #eeeeee;
+                border-radius: 20px;
+                padding: 10px;
+                cursor: pointer;
+                border: 5px solid #fff;
+            }
+        }
+
+        .user-detail {
+            padding: 40px 20px 0;
+
+            h2 {
+                font-weight: $weight-medium;
+                font-size: 25px;
+            }
+
+            p {
+                font-weight: $weight-regular;
+                font-size: 16px;
+                color: #A3A9B4;
+            }
+        }
+
+        .my-profile-form {
+            width: 100%;
+            max-width: 812px;
+            margin: 0 auto;
+            padding-top: 30px;
+            span{
+                color:$error;
+            }
+
+            label {
+                padding-bottom: 8px;
+                font-weight: $weight-medium;
+                font-size: 16px;
+                color: $labelColor;
+
+            }
+
+            input {
+                padding: 13px;
+            }
+        }
+
+        .pr-save-btn {
+            padding-bottom: 20px;
+
+            .save-btn {
+                background-color: #90393F;
+                border-radius: 8px;
+                border: 1px solid #D6DAE3;
+                width: 30%;
+                min-height: 55px;
+                color: #fff;
+                font-weight: $weight-bold;
+                font-size: 20px;
+            }
+        }
+
+        .change-pass {
+            a {
+                color: #90393F;
+                font-weight: $weight-medium;
+                font-size: 16px;
+                text-decoration: none;
+            }
+
+        }
+    }
+}

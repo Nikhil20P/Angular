@@ -1,0 +1,72 @@
+@use "styles/variable" as *;
+
+.change-password-wrapper {
+    width: calc(100% - 98px);
+    max-width: 1374px;
+    margin: 0 auto;
+    padding: 2rem;
+
+    h1 {
+        font-weight: $weight-medium;
+        font-size: 25px;
+        font-family: $font-family;
+        position: relative;
+        padding-left: 15px;
+        margin-bottom: 14px;
+
+        &::before {
+            position: absolute;
+            background-color: $buttonColor;
+            content: "";
+            width: 3px;
+            height: 100%;
+            top: 0;
+            left: 0;
+        }
+    }
+
+    .form-container {
+        background-color: #fff;
+        border-radius: 8px;
+
+        p {
+            font-size: 16px;
+            font-weight: 300;
+            padding-bottom: 20px;
+        }
+
+        .form-main {
+            width: 100%;
+            max-width: 444px;
+            margin: 0 13.5rem;
+            padding: 41px 0 81px 0;
+
+            .change-pass-form {
+                span{
+                    color: $error;
+                }
+                input {
+                    padding: 13px;
+                }
+
+                label {
+                    color: #515C6F;
+                    font-weight:$weight-medium;
+                    font-size: 16px;
+                    padding-bottom: 8px;
+                }
+            }
+
+            .update-btn {
+                background-color: #90393F;
+                border-radius: 8px;
+                border: 1px solid #D6DAE3;
+                width: 50%;
+                min-height: 55px;
+                color: #fff;
+                font-weight: bold;
+                font-size: 20px;
+            }
+        }
+    }
+}

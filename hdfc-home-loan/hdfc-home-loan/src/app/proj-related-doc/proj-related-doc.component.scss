@@ -1,0 +1,42 @@
+.new-app-facility {
+    .fd-form {
+        padding: 30px;
+       
+
+        .common-class {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #fff;
+            border: 1px solid #D6DAE3;
+            border-radius: 8px;
+            padding: 1.5rem;
+            margin-bottom: 24px;
+
+            h2 {
+
+                font-size: 16px;
+            }
+
+            button {
+                background-color: #90393F;
+                border: 1px solid #90393F;
+                border-radius: 8px;
+                min-height: 33px;
+                color: #fff;
+                font-weight: bold;
+            }
+        }
+    }
+    .detail-main{
+        padding-bottom: 40px;
+    }
+    .owner-equity{
+        .euity-head{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+        }
+    }
+}

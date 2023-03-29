@@ -1,0 +1,54 @@
+@use "styles/variable" as *;
+
+.header {
+   padding: 10px 50px;
+   height: auto;
+   background: #FFF;
+
+   .header-logo {
+      width: 75px;
+
+      img {
+         max-width: 100%;
+      }
+   }
+
+   .header-heading {
+      font-size: 18px;
+      padding-left: 20px;
+      font-weight: $weight-medium;
+      color: $font-color;
+   }
+
+   .header-rightmenu {
+      li {
+         list-style: none;
+         padding: 20px;
+         font-size: 16px;
+         font-weight: $weight-medium;
+
+         a {
+            text-decoration: none;
+            color: inherit;
+         }
+
+         a:active {
+            color: red !important;
+         }
+      }
+   }
+   .dropdown {
+      margin-top: 20px;
+      .header-dropdown {
+         font-size: 16px;
+         font-weight: $weight-medium;
+      }
+      .dropdown-menu{
+         .dropdown-item{
+            font-size: 14px;
+            font-weight: $weight-medium;
+            border-radius: none;
+         }
+      }
+   }
+}

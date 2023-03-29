@@ -1,0 +1,18 @@
+<svg id="button" xmlns="http://www.w3.org/2000/svg" width="16.023" height="16.023" viewBox="0 0 16.023 16.023">
+  <path id="Icon_awesome-question-circle" data-name="Icon awesome-question-circle" d="M16.586,8.574A8.012,8.012,0,1,1,8.574.563,8.011,8.011,0,0,1,16.586,8.574Z" transform="translate(-0.563 -0.563)" fill="#892428"/>
+  <g id="question-svgrepo-com" transform="translate(5.805 3.975)">
+    <g id="Group_36749" data-name="Group 36749">
+      <g id="Group_36748" data-name="Group 36748">
+        <path id="Path_28332" data-name="Path 28332" d="M10.218,11.073a.524.524,0,0,1-.555-.555V10.13a2.237,2.237,0,0,1,1.109-1.941,1.042,1.042,0,0,0,.555-1.164,1.059,1.059,0,0,0-.887-.887A1.159,1.159,0,0,0,9.5,6.36a1.084,1.084,0,0,0-.388.832A.555.555,0,0,1,8,7.191a2.274,2.274,0,0,1,.776-1.719,2.181,2.181,0,0,1,1.83-.5,2.25,2.25,0,0,1,1.774,1.774,2.2,2.2,0,0,1-1.109,2.329,1.06,1.06,0,0,0-.5,1v.444A.524.524,0,0,1,10.218,11.073Z" transform="translate(-8 -4.94)" fill="#fff"/>
+      </g>
+    </g>
+    <g id="Group_36752" data-name="Group 36752" transform="translate(1.386 6.41)">
+      <g id="Group_36750" data-name="Group 36750" transform="translate(0.277 0.277)">
+        <circle id="Ellipse_358" data-name="Ellipse 358" cx="0.555" cy="0.555" r="0.555" fill="#fff"/>
+      </g>
+      <g id="Group_36751" data-name="Group 36751" transform="translate(0 0)">
+        <path id="Path_28333" data-name="Path 28333" d="M11.332,18.164a.832.832,0,1,1,.832-.832A.853.853,0,0,1,11.332,18.164Zm0-1.109a.277.277,0,1,0,.277.277A.262.262,0,0,0,11.332,17.055Z" transform="translate(-10.5 -16.5)" fill="#fff"/>
+      </g>
+    </g>
+  </g>
+</svg>

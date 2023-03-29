@@ -1,0 +1,32 @@
+<div class="header">
+    <div class="row">
+        <div class="col-3 d-flex align-items-center">
+            <div class="header-logo">
+                <img src="../../assets/images/logo.png" alt="">
+            </div>
+            <div class="header-heading">HDFC Home Loan</div>
+        </div>
+        
+        <div class="col-6">
+            <ul class="header-rightmenu d-flex justify-content-end">
+                <li><a href="">Dashboard</a></li>
+                <li><a routerLink="/dashboard/facility-detail">New Application</a></li>
+                <li><a href="">Make Payment</a></li>
+                <li><a>Facilities</a></li>
+                <li><a href="">Messages</a></li>
+            </ul>
+        </div>
+        <div class="col-3">
+            <div class="dropdown">
+                <li class="dropdown-toggle header-dropdown" type="button" id="defaultDropdown" data-bs-toggle="dropdown" data-bs-auto-close="true" aria-expanded="false">
+                  Default dropdown</li>
+                <ul class="dropdown-menu" aria-labelledby="defaultDropdown">
+                  <li><a class="dropdown-item" routerLink="/dashboard/my-profile">My Profile</a></li>
+                  <li><a class="dropdown-item" routerLink="/dashboard/change-pass">Change Password</a></li>
+                  <li><a class="dropdown-item" href="#">Logout</a></li>
+                </ul>
+              </div>
+        </div>
+    </div>
+</div>
+<router-outlet></router-outlet>

@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="253.101" height="205.378" viewBox="0 0 253.101 205.378">
+  <g id="Group_36772" data-name="Group 36772" transform="translate(-522 -567.031)">
+    <path id="Union_1" data-name="Union 1" d="M66.377,191.049a10.766,10.766,0,1,1,0-21.533H116.6a10.766,10.766,0,1,1,0,21.533ZM19.738,169.517a19.738,19.738,0,1,1,0-39.477h12.1a19.75,19.75,0,0,1,18.393-26.916h87.889a19.738,19.738,0,0,1,0,39.477h-12.1a19.751,19.751,0,0,1-18.393,26.916ZM192.11,95.1a10.767,10.767,0,0,1,0-21.533h50.223a10.767,10.767,0,1,1,0,21.533ZM33.052,73.57a14.355,14.355,0,1,1,0-28.71H46.921A21.067,21.067,0,0,1,66.54,16.15h55.931A19.745,19.745,0,0,1,141.883,0h87.89a19.738,19.738,0,0,1,0,39.477H181.222a21.057,21.057,0,0,1-20.933,18.781H114.34q.031.474.031.957A14.355,14.355,0,0,1,100.016,73.57Z" transform="translate(522 581.36)" fill="#f1e6e6" opacity="0.5"/>
+    <path id="Subtraction_1" data-name="Subtraction 1" d="M96.135,131.9H7.689A7.7,7.7,0,0,1,0,124.211v-88.6L37.072,0H71.186a39.637,39.637,0,0,0-1.109,9.328,39.646,39.646,0,0,0,33.747,39.051v75.833A7.7,7.7,0,0,1,96.135,131.9Z" transform="translate(589.631 607.14)" fill="#fff" stroke="#90393f" stroke-width="2"/>
+    <g id="Path_28338" data-name="Path 28338" transform="translate(320.838 511.719)" fill="#ecb0b4" stroke-linejoin="round">
+      <path d="M 298.3271789550781 130.5686798095703 L 269.6442565917969 130.5686798095703 L 305.4836120605469 96.13552856445312 L 305.4836120605469 123.4122161865234 C 305.4836120605469 127.3583068847656 302.2732543945312 130.5686798095703 298.3271789550781 130.5686798095703 Z" stroke="none"/>
+      <path d="M 298.3271789550781 129.5686798095703 C 301.7218627929688 129.5686798095703 304.4836120605469 126.8069076538086 304.4836120605469 123.4122161865234 L 304.4836120605469 98.4830322265625 L 272.1284790039062 129.5686798095703 L 298.3271789550781 129.5686798095703 M 298.3271789550781 131.5686798095703 L 267.1600341796875 131.5686798095703 L 306.4836120605469 93.78801727294922 L 306.4836120605469 123.4122161865234 C 306.4836120605469 127.9173736572266 302.8323059082031 131.5686798095703 298.3271789550781 131.5686798095703 Z" stroke="none" fill="#90393f"/>
+    </g>
+    <g id="face-sad-svgrepo-com" transform="translate(665.695 582.993)">
+      <path id="Path_28339" data-name="Path 28339" d="M33.974,67.449A33.474,33.474,0,1,0,.5,33.974,33.474,33.474,0,0,0,33.974,67.449Z" transform="translate(-0.5 -0.5)" fill="#fff" stroke="#90393f" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" fill-rule="evenodd"/>
+      <path id="Path_28341" data-name="Path 28341" d="M21.456,34.558c11.573,0,20.956-7.624,20.956-17.029S33.029.5,21.456.5.5,8.124.5,17.529,9.882,34.558,21.456,34.558Z" transform="translate(12.019 30.758)" fill="#f6e8e8" fill-rule="evenodd"/>
+      <circle id="Ellipse_360" data-name="Ellipse 360" cx="4.184" cy="4.184" r="4.184" transform="translate(18.829 28.627)" fill="#90393f"/>
+      <circle id="Ellipse_361" data-name="Ellipse 361" cx="4.184" cy="4.184" r="4.184" transform="translate(39.751 28.627)" fill="#90393f"/>
+      <path id="Path_28340" data-name="Path 28340" d="M5.5,17.869Q9.284,9.5,18.053,9.5t12.553,8.369" transform="translate(15.421 37.956)" fill="none" stroke="#90393f" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" fill-rule="evenodd"/>
+    </g>
+    <path id="Icon_ionic-md-close-circle" data-name="Icon ionic-md-close-circle" d="M27.256,3.375A23.881,23.881,0,1,0,51.137,27.256,23.8,23.8,0,0,0,27.256,3.375ZM39.2,35.854,35.854,39.2l-8.6-8.6-8.6,8.6-3.343-3.343,8.6-8.6-8.6-8.6,3.343-3.343,8.6,8.6,8.6-8.6L39.2,18.659l-8.6,8.6Z" transform="translate(614.286 656.16)" fill="#892428"/>
+    <path id="Icon_ionic-md-close-circle-2" data-name="Icon ionic-md-close-circle" d="M22.118,20.517l-1.6,1.6L16.4,18l-4.115,4.115-1.6-1.6L14.8,16.4l-4.115-4.115,1.6-1.6L16.4,14.8l4.115-4.115,1.6,1.6L18,16.4Z" transform="translate(670.826 739.372)" fill="#892428"/>
+    <circle id="Ellipse_362" data-name="Ellipse 362" cx="4.184" cy="4.184" r="4.184" transform="translate(734.838 644.278)" fill="#90393f"/>
+    <circle id="Ellipse_365" data-name="Ellipse 365" cx="5.715" cy="5.715" r="5.715" transform="translate(565.016 695.747)" fill="#90393f"/>
+    <circle id="Ellipse_363" data-name="Ellipse 363" cx="3.266" cy="3.266" r="3.266" transform="translate(658.092 588.759)" fill="#90393f"/>
+    <circle id="Ellipse_364" data-name="Ellipse 364" cx="5.715" cy="5.715" r="5.715" transform="translate(661.358 567.531)" fill="none" stroke="#892428" stroke-width="1"/>
+  </g>
+</svg>

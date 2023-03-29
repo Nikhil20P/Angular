@@ -1,0 +1,52 @@
+<section class='myprofile'>
+    <h1>My Profile</h1>
+    <div class='form-container'>
+        <div class='profile-detail d-flex align-items-center'>
+            <div class="profile-img">
+                <img class="user-logo" src="../../assets/images/userprofile.png" alt="">
+            </div>
+            <div class="camera-icon">
+                <img src="../../assets/images/icon-awesome-camera.png" alt="">
+            </div>
+
+            <div class='user-detail'>
+                <h2>John Smith</h2>
+                <p>johnsmith@gmail.com</p>
+            </div>
+        </div>
+        <form class="my-profile-form row">
+            <div class="mb-3 col-lg-6">
+                <span>* </span><label for="exampleInputEmail1" class="form-label">FullName</label>
+                <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            </div>
+            <div class="mb-3 col-lg-6">
+                <span>* </span> <label for="exampleInputPassword1" class="form-label">National ID</label>
+                <input type="number" class="form-control" id="exampleInputPassword1">
+            </div>
+            <div class="row">
+                <div class="mb-3 col-lg-4"> <span>* </span><label class="form-label" for="">Date Of Birth</label>
+                    <input type="date" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                </div>
+                <div class="mb-3 col-lg-4"> <span>* </span><label class="form-label" for="">Select Country Code</label>
+                    <input type="number" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                </div>
+                <div class="mb-3 col-lg-4"> <span>* </span><label class="form-label" for="">Mobile Number</label>
+                    <input type="tel" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                </div>
+            </div>
+            <div class="row">
+                <div class="mb-3 col-lg-12">
+                    <span>* </span> <label class="form-label" for="">Email</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                </div>
+            </div>
+            <div class="pr-save-btn">
+                <button  type="submit" class="btn btn-primary save-btn mt-2">Save Details</button>
+            </div>
+            <div class="change-pass">
+                <a routerLink="/dashboard/change-pass">Click here to Change Password</a>
+            </div>
+        </form>
+    </div>
+
+</section>

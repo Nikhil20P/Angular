@@ -1,0 +1,175 @@
+// @use "styles/variable" as *;
+
+// .new-app-facility {
+//     max-width: 1367px;
+//     margin: 0 auto;
+//     padding: 28px 0 20px 0;
+
+//     h1 {
+//         font-weight: $weight-medium;
+//         font-size: 25px;
+//         position: relative;
+//         padding-left: 15px;
+//         margin-bottom: 14px;
+
+//         &::before {
+//             position: absolute;
+//             background-color: $buttonColor;
+//             content: "";
+//             width: 3px;
+//             height: 100%;
+//             top: 0;
+//             left: 0;
+//         }
+//     }
+
+//     .fa-detail-section {
+//         border: 1px solid #DBDBDB;
+//         border-radius: 8px;
+
+//         .side-bar {
+//             padding: 1rem;
+//             background-color: #F8F8F8;
+//             border-right: 1px solid #DBDBDB;
+
+//             .top-progressbar {
+//                 padding: 10px 0 40px 0;
+
+//                 .progress-btn {
+//                     button {
+//                         background-color: #D6DAE3;
+//                         border-radius: 5px;
+//                         line-height: 0;
+//                         padding: 20px;
+//                         font-weight: $weight-bold;
+//                         font-size: 16px;
+//                     }
+//                 }
+
+//                 h2 {
+//                     font-size: 16px;
+//                     font-weight: 500;
+//                 }
+
+//             }
+//         }
+
+//         .facility-detail {
+//             ul {
+//                 list-style: none;
+//                 padding: 0;
+
+//                 li {
+//                     background-color: #E9D7D8;
+//                     padding: 14px 10px;
+//                     border-radius: 8px;
+//                     margin-bottom: 10px;
+//                 }
+//             }
+
+//             label {
+//                 padding-left: 20px;
+//                 font-size: 16px;
+//                 font-weight: $weight-medium ;
+//             }
+
+//         }
+//     }
+
+//     .fa-right-section {
+//         background-color: #F8F8F8;
+//         padding: 24px;
+
+//         .fd-section {
+//             border: 1px solid #f0f0f0;
+//             border-top: none;
+//             border-left: none;
+//             border-right: none;
+//             padding-top: 80px;
+//         }
+
+//         .detail-main {
+//             padding: 24px;
+
+//             .progress-head {
+//                 display: flex;
+//                 justify-content: space-between;
+//                 align-items: baseline;
+//                 padding-bottom: 25px;
+//                 height: 2px;
+
+//                 h2 {
+//                     font-weight: $weight-medium;
+//                     font-size: 20px;
+//                     position: relative;
+//                     padding-left: 15px;
+
+//                     &::before {
+//                         position: absolute;
+//                         background-color: #90393F;
+//                         content: "";
+//                         width: 3px;
+//                         height: 100%;
+//                         top: 0;
+//                         left: 0;
+//                     }
+//                 }
+//             }
+//         }
+
+//         .fd-form {
+//             border: 1px solid #E6E6E6;
+//             border-radius: 8px;
+
+//             .form-radio-btn {
+//                 text-align: center;
+//                 border-bottom: 1px solid #E6E6E6;
+//                 padding: 18px 0;
+//                 margin-bottom: 0;
+
+//                 .radio-btn-content {
+//                     font-size: 16px;
+//                     font-weight: $weight-medium;
+//                     color: #515C6F;
+//                 }
+
+
+//             }
+
+//             .facility-form {
+//                 padding: 30px;
+
+//                 label {
+//                     font-size: 16px;
+//                     font-weight: $weight-medium;
+//                     color: #515C6F;
+//                 }
+
+//                 span {
+//                     color: $error;
+//                 }
+
+//                 input {
+//                     width: 100%;
+//                     min-height: 53px;
+
+//                 }
+
+//                 .button {
+//                     text-align: center;
+
+//                     .submit-btn {
+//                         background-color: #90393F;
+//                         border-radius: 8px;
+//                         border: 1px solid #D6DAE3;
+//                          width: 227px;
+//                           min-height: 55px;
+//                           color: $white;
+//                           font-weight: $weight-bold;
+//                           font-size: 16px;
+//                     }
+//                 }
+//             }
+//         }
+//     }
+// }

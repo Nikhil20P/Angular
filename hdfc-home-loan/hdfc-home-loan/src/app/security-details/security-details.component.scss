@@ -1,0 +1,47 @@
+@use "styles/variable" as *;
+
+.fd-form {
+    .pri-btn {
+        min-height: 52px;
+        width: 136px;
+        background-color: $font-color;
+        border: 1px solid $font-color;
+        color: $white;
+        margin-right: 5px;
+        font-size: 16px;
+        font-weight: $weight-medium;
+    }
+
+    .alt-btn {
+        min-height: 52px;
+        width: 136px;
+        background-color: $sideBarButton;
+        border: 1px solid $sideBarButton;
+        font-weight: $weight-medium;
+
+    }
+
+.facility-form {
+    .button {
+        padding-top: 25px;
+    }
+
+    .sd-title-owner {
+        margin-top: 25px;
+
+        .title-head {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .title-table {
+            color: $tableTh;
+            background-color: #ECECEC;
+            padding: 16px;
+            border-radius: 8px;
+        }
+    }
+}
+}
